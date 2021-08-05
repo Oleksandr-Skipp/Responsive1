@@ -1,0 +1,291 @@
+.content {
+  margin: 0 0 0 172px;
+}
+
+.header__search {
+  float: left;
+  border: none;
+  width: 30%;
+  min-height: 66px;
+  padding: 22px;
+  color: #000000;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.header__search::placeholder {
+  font-size: 12px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.header__button {
+  border: none;
+  outline: none;
+  display: inline-block;
+  width: 67px;
+  padding: 33px 0;
+  background-color: #fff;
+  border-left: 1px solid #0f1e364d;
+  cursor: pointer;
+}
+
+.tv:hover {
+  background: #dadada;
+}
+
+.radio:hover {
+  background: #dadada;
+}
+
+.bell:hover {
+  background: #dadada;
+}
+
+.tv,
+.radio,
+.bell {
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+}
+
+.tv {
+  background-image: url(../icons/tv.svg);
+}
+
+.radio {
+  background-image: url(../icons/radio.svg);
+}
+
+.bell {
+  background-image: url(../icons/bell.svg);
+}
+
+.header__nav {
+  float: right;
+}
+
+.header__profile {
+  float: right;
+  border-left: 1px solid #0f1e364d;
+  padding: 16px 110px 15px 23px;
+}
+
+.clear {
+  clear: both;
+}
+
+.albums {
+  padding: 24px 0 24px 20px;
+}
+
+.albums > h3 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0f1e36;
+  margin: 0 0 14px 0;
+}
+
+.albums__wrapper {
+  display: flex;
+  overflow: scroll;
+}
+
+.albums__wrapper::-webkit-scrollbar {
+  display: none;
+}
+.album {
+  flex-shrink: 0;
+  width: 112px;
+  margin: 0 20px 0 0;
+}
+
+.album > h5 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0f1e36;
+}
+
+.album > span {
+  font-size: 10px;
+  line-height: 14px;
+  color: #0f1e36;
+  opacity: 0.48;
+}
+
+.album_img {
+  margin: 0 0 8px 0;
+}
+
+.album__img1 {
+  width: 100%;
+  height: 112px;
+  background: url(../img/Jonas_Brothers.png) no-repeat center/cover;
+}
+
+.album__img2 {
+  width: 100%;
+  height: 112px;
+  background: url(../img/Ed_Sheeran.png) no-repeat center/cover;
+}
+
+.album__img3 {
+  width: 100%;
+  height: 112px;
+  background: url(../img/Lil_Nas.png) no-repeat center/cover;
+}
+
+.album__img4 {
+  width: 100%;
+  height: 112px;
+  background: url(../img/Feydee.png) no-repeat center/cover;
+}
+
+.album__img5 {
+  width: 100%;
+  height: 112px;
+  background: url(../img/Faydee.png) no-repeat center/cover;
+}
+
+.album__img6 {
+  width: 100%;
+  height: 112px;
+  background: url(../img/Bilionera.png) no-repeat center/cover;
+}
+
+.album__img7 {
+  width: 100%;
+  height: 112px;
+  background: url(../img/DDY_Nunes.jpg) no-repeat center/cover;
+}
+
+.slider {
+  padding: 92px 0 48px 52px;
+  height: 400px;
+  width: 100%;
+  background: url(../img/Slider_girl.png) no-repeat center/cover;
+}
+
+.slider__category {
+  font-size: 10px;
+  line-height: 14px;
+  color: #ffffff;
+  margin: 0 0 7px 0;
+}
+
+.slider__heading {
+  width: 250px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0 0 7px 0;
+}
+
+.slider__song {
+  font-size: 16px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.slider_wrapper {
+  margin: 0 0 43px 0;
+}
+
+.slider__buttons {
+  display: flex;
+}
+
+.slider__button_play,
+.slider__button_share {
+  height: 22px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px #bc1428;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+}
+
+.slider__button_play {
+  width: 62px;
+  margin: 0 8px 0 0;
+}
+
+.slider__play_img {
+  padding: 0 0 1px 0;
+}
+
+.slider__button_share {
+  width: 30px;
+}
+
+.slider__share_img {
+  padding: 2px 0 0 0;
+}
+
+.tracks {
+  padding: 0 20px;
+}
+
+.tracks > h3 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0f1e36;
+  margin: 0 0 14px 0;
+}
+
+.tracks__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tracks__scroll {
+  height: calc(100vh - 610px);
+  overflow: scroll;
+}
+
+.track {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: rgba(15, 30, 54, 0.5);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.track:hover {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tracks__header > div,
+.track > div {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 40px;
+}
+
+.tracks__header > div:nth-child(3) {
+  flex-grow: 4;
+}
+
+.tracks__header > div:nth-child(4) {
+  flex-grow: 4;
+}
+
+.tracks__header > div:nth-child(5) {
+  flex-grow: 3;
+}
+
+.tracks__header > div:nth-child(6) {
+  flex-grow: 3;
+}
+
+.track__singer_mobile,
+.track__image_mobil {
+  display: none;
+}

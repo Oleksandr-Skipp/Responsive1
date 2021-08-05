@@ -1,0 +1,72 @@
+.menu {
+  width: 170px;
+  position: fixed;
+  left: 0;
+  border: 1px solid #eeeeee;
+  background: #ffffff;
+  height: 100vh;
+}
+
+.menu_wrapper {
+  padding: 24px;
+}
+
+.menu_navigation {
+  font-size: 12px;
+  color: #0f1e36;
+}
+
+.logo {
+  margin: 0 0 42px 0;
+}
+
+.menu_navigation ul li span {
+  display: inline-block;
+  vertical-align: top;
+  margin: 3px 0 0 15px;
+}
+.menu_navigation ul li {
+  margin: 0 0 24px 0;
+}
+
+.menu_navigation ul li img {
+  width: 17px;
+  height: 16px;
+}
+
+.menu_navigation h3 {
+  font-weight: 600;
+  margin: 0 0 18px 0;
+}
+
+.menu_singer {
+  background: #f51e38;
+  padding: 12px 6px 10px 22px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
+}
+
+.menu_singer_track {
+  display: inline-block;
+  width: 94px;
+  vertical-align: top;
+  padding: 6px 0 0 4px;
+}
+
+.menu_singer_name {
+  font-size: 12px;
+  color: #ffffff;
+  padding: 0 0 2px 0;
+}
+
+.menu_singer_track_name {
+  font-size: 10px;
+  color: #f79da8;
+}
+
+.menu_singer_img {
+  width: 40px;
+  height: 40px;
+}

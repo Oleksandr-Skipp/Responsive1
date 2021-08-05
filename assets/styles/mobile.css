@@ -1,0 +1,27 @@
+@media (max-widht: 320px) {
+  .menu,
+  .header,
+  .tracks__header,
+  .track > div {
+    display: none;
+  }
+
+  .content {
+    margin: 0;
+  }
+
+  .track__singer_mobile,
+  .track__img_mobil {
+    display: block;
+  }
+
+  .track__singer_mobile,
+  .track__img_mobil,
+  .track__time_mobile {
+    display: block !important;
+  }
+
+  .track__img_mobil > span {
+    display: none;
+  }
+}
