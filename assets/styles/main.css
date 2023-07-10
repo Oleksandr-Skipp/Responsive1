@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 @import "reset.css";
+@import "mobile.css";
 @import "menu.css";
 @import "content.css";
-@import "mobile.css";
 
 .body {
   font-family: "Source Sans Pro", sans-serif;
-  max-width: 1030px;
+}
+
+@media (max-widht: 900px) {
+  .slider {
+    display: none;
+  }
 }

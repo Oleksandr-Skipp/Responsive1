@@ -2,94 +2,91 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hillel-9</title>
     <link rel="stylesheet" type="text/css" href="assets/styles/main.css" />
   </head>
   <body>
     <div class="wrapper">
-      <div class="menu">
-        <div class="menu_wrapper">
-          <img class="logo" src="./assets/icons/logo.svg" alt="logo " />
-          <div class="menu_navigation">
-            <ul>
-              <li>
-                <img src="./assets/icons/discover.svg" alt="icon" />
-                <span>Discover</span>
-              </li>
-              <li>
-                <img src="./assets/icons/songs.svg" alt="icon" />
-                <span>Songs</span>
-              </li>
-              <li>
-                <img src="./assets/icons/albums.svg" alt="icon" />
-                <span>Albums</span>
-              </li>
-              <li>
-                <img src="./assets/icons/artists.svg" alt="icon" />
-                <span>Artists</span>
-              </li>
-              <li>
-                <img src="./assets/icons/you_tube.svg" alt="icon" />
-                <span>YouTube</span>
-              </li>
-            </ul>
-            <h3>My Tracks</h3>
-            <ul>
-              <li>
-                <img src="./assets/icons/favourite.svg" alt="icon" />
-                <span>Favourite</span>
-              </li>
-              <li>
-                <img src="./assets/icons/history.svg" alt="icon" />
-                <span>Recent History</span>
-              </li>
-              <li>
-                <img src="./assets/icons/download.svg" alt="icon" />
-                <span>Download Items</span>
-              </li>
-              <li>
-                <img src="./assets/icons/local_files.svg" alt="icon" />
-                <span>Local Files</span>
-              </li>
-            </ul>
-            <h3>Playlist</h3>
-            <ul>
-              <li>
-                <img src="./assets/icons/add.svg" alt="icon" />
-                <span>Bangla</span>
-              </li>
-              <li>
-                <img src="./assets/icons/add.svg" alt="icon" />
-                <span>English</span>
-              </li>
-              <li>
-                <img src="./assets/icons/add.svg" alt="icon" />
-                <span>My Style</span>
-              </li>
-              <li>
-                <img src="./assets/icons/add.svg" alt="icon" />
-                <span>Hindi</span>
-              </li>
-            </ul>
+      <div class="main__content-wrapper">
+        <div class="menu">
+          <div class="menu_wrapper">
+            <img class="logo" src="./assets/icons/logo.svg" alt="logo " />
+            <div class="menu_navigation">
+              <ul>
+                <li>
+                  <img src="./assets/icons/discover.svg" alt="icon" />
+                  <span>Discover</span>
+                </li>
+                <li>
+                  <img src="./assets/icons/songs.svg" alt="icon" />
+                  <span>Songs</span>
+                </li>
+                <li>
+                  <img src="./assets/icons/albums.svg" alt="icon" />
+                  <span>Albums</span>
+                </li>
+                <li>
+                  <img src="./assets/icons/artists.svg" alt="icon" />
+                  <span>Artists</span>
+                </li>
+                <li>
+                  <img src="./assets/icons/you_tube.svg" alt="icon" />
+                  <span>YouTube</span>
+                </li>
+              </ul>
+              <h3>My Tracks</h3>
+              <ul>
+                <li>
+                  <img src="./assets/icons/favourite.svg" alt="icon" />
+                  <span>Favourite</span>
+                </li>
+                <li>
+                  <img src="./assets/icons/history.svg" alt="icon" />
+                  <span>Recent History</span>
+                </li>
+                <li>
+                  <img src="./assets/icons/download.svg" alt="icon" />
+                  <span>Download Items</span>
+                </li>
+                <li>
+                  <img src="./assets/icons/local_files.svg" alt="icon" />
+                  <span>Local Files</span>
+                </li>
+              </ul>
+              <h3 class="Playlist">Playlist</h3>
+              <ul>
+                <li>
+                  <img src="./assets/icons/add.svg" alt="icon" />
+                  <span>Bangla</span>
+                </li>
+                <li>
+                  <img src="./assets/icons/add.svg" alt="icon" />
+                  <span>English</span>
+                </li>
+                <li>
+                  <img src="./assets/icons/add.svg" alt="icon" />
+                  <span>My Style</span>
+                </li>
+                <li>
+                  <img src="./assets/icons/add.svg" alt="icon" />
+                  <span>Hindi</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="menu_singer">
+            <img class="menu_singer_img" src="./assets/img/Singer.png" alt="singer" />
+            <div class="menu_singer_track">
+              <h3 class="menu_singer_name">Kamelia</h3>
+              <p class="menu_singer_track_name">
+                Akcent ft Lidia Buble&DDY Nunes
+              </p>
+            </div>
+            <span class="menu_singer_more"></span>
           </div>
         </div>
-        <div class="menu_singer">
-          <img
-            class="menu_singer_img"
-            src="./assets/img/Singer.png"
-            alt="singer"
-          />
-          <div class="menu_singer_track">
-            <h3 class="menu_singer_name">Kamelia</h3>
-            <p class="menu_singer_track_name">
-              Akcent ft Lidia Buble&DDY Nunes
-            </p>
-          </div>
-          <span class="menu_singer_more"></span>
-        </div>
-      </div>
-      <main class="content">
+        <div class="container">
         <header class="header">
           <input
             class="header__search"
@@ -100,16 +97,14 @@
             <button class="header__button tv"></button>
             <button class="header__button radio"></button>
             <button class="header__button bell"></button>
-            <div class="header__profile profile">
+            <div class="header__profile">
               <img
-                class="profile__avatar"
                 src="./assets/img/Profile_Pic.png"
                 alt="Profile_Pic"
               />
               <img src="./assets/img/profile_status.png" alt="profile_status" />
             </div>
           </div>
-          <div class="clear"></div>
         </header>
         <section class="slider">
           <div class="slider_wrapper">
@@ -291,13 +286,13 @@
         <section class="tracks">
           <h3>Top Tracks</h3>
           <div class="tracks__header">
-            <div>#</div>
+            <div class="basis1">#</div>
             <div></div>
-            <div>Song</div>
-            <div>Artist</div>
-            <div>Daily Plays</div>
-            <div>Time</div>
-            <div>Option</div>
+            <div class="basis3">Song</div>
+            <div class="basis4">Artist</div>
+            <div class="basis5">Daily Plays</div>
+            <div class="basis6">Time</div>
+            <div class="basis7">Option</div>
             <div></div>
             <div></div>
           </div>
@@ -316,8 +311,9 @@
               </div>
               <div class="track__singer_mobile">
                 <div>Old Town Road</div>
-                <div >Claydee feat</div>
+                <div>Lil Nas</div>
               </div>
+              <div>Old Town Road</div>
               <div>Lil Nas</div>
               <div>39,566</div>
               <div class="track__time_mobile">4:21</div>
@@ -345,8 +341,9 @@
               </div>
               <div class="track__singer_mobile"> 
                 <div>Kamelia</div>
-                <div >Claydee feat</div>
+                <div>DDY Nunes</div>
               </div>
+              <div>Kamelia</div>
               <div>DDY Nunes</div>
               <div>32,420</div>
               <div class="track__time_mobile">3:30</div>
@@ -374,9 +371,10 @@
               </div>
               <div class="track__singer_mobile">
                 <div>I need Your love</div>
-                <div >Claydee feat</div>
+                <div>Faydee</div>
               </div>
               <div>I need Your love</div>
+              <div>Faydee</div>
               <div>28,221</div>
               <div class="track__time_mobile">3:41</div>
               <div>
@@ -403,8 +401,9 @@
               </div>
               <div class="track__singer_mobile">
                 <div>Otilia</div>
-                <div >Claydee feat</div>
+                <div>Bilionera</div>
               </div>
+              <div>Otilia</div>
               <div>Bilionera</div>
               <div>21,528</div>
               <div class="track__time_mobile">2:57</div>
@@ -432,8 +431,9 @@
               </div>
               <div class="track__singer_mobile">
                 <div>I Don’t Care</div>
-                <div >Claydee feat</div>
+                <div>Ed Sheeran & Bieber's</div>
               </div>
+              <div>I Don’t Care</div>
               <div>Ed Sheeran & Bieber's</div>
               <div>20,439</div>
               <div class="track__time_mobile">3:15</div>
@@ -457,8 +457,9 @@
                 </div>
                 <div class="track__singer_mobile">
                   <div>Old Town Road</div>
-                  <div >Claydee feat</div>
+                  <div>Lil Nas</div>
                 </div>
+                <div>Old Town Road</div>
                 <div>Lil Nas</div>
                 <div>39,566</div>
                 <div class="track__time_mobile">4:21</div>
@@ -482,8 +483,9 @@
                 </div>
                 <div class="track__singer_mobile">
                   <div>Kamelia</div>
-                  <div >Claydee feat</div>
+                  <div>DDY Nunes</div>
                 </div>
+                <div>Kamelia</div>
                 <div>DDY Nunes</div>
                 <div>32,420</div>
                 <div class="track__time_mobile">3:30</div>
@@ -507,9 +509,10 @@
                 </div>
                 <div class="track__singer_mobile">
                   <div>I need Your love</div>
-                  <div >Claydee feat</div>
+                  <div>Faydee</div>
                 </div>
                 <div>I need Your love</div>
+                <div>Faydee</div>
                 <div>28,221</div>
                 <div class="track__time_mobile">3:41</div>
                 <div>
@@ -532,8 +535,9 @@
                 </div>
                 <div class="track__singer_mobile">
                   <div>Otilia</div>
-                  <div >Claydee feat</div>
+                  <div>Bilionera</div>
                 </div>
+                <div>Otilia</div>
                 <div>Bilionera</div>
                 <div>21,528</div>
                 <div class="track__time_mobile">2:57</div>
@@ -557,8 +561,503 @@
                 </div>
                 <div class="track__singer_mobile">
                   <div>I Don’t Care</div>
-                  <div >Claydee feat</div>
+                  <div>Ed Sheeran & Bieber's</div>
                 </div>
+                <div>I Don’t Care</div>
+                <div>Ed Sheeran & Bieber's</div>
+                <div>20,439</div>
+                <div class="track__time_mobile">3:15</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>11</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_5.png" alt="Ed_Sheeran_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I Don’t Care</div>
+                  <div>Ed Sheeran & Bieber's</div>
+                </div>
+                <div>I Don’t Care</div>
+                <div>Ed Sheeran & Bieber's</div>
+                <div>20,439</div>
+                <div class="track__time_mobile">3:15</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>12</span>
+                  <img class="track__image_mobil" src="./assets/img/Singer.png" alt="Lil_Nas_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>Old Town Road</div>
+                  <div>Lil Nas</div>
+                </div>
+                <div>Old Town Road</div>
+                <div>Lil Nas</div>
+                <div>39,566</div>
+                <div class="track__time_mobile">4:21</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>13</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_2.png" alt="DDY_Nunes_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>Kamelia</div>
+                  <div>DDY Nunes</div>
+                </div>
+                <div>Kamelia</div>
+                <div>DDY Nunes</div>
+                <div>32,420</div>
+                <div class="track__time_mobile">3:30</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>14</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_3.png" alt="Faydee_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I need Your love</div>
+                  <div>Faydee</div>
+                </div>
+                <div>I need Your love</div>
+                <div>Faydee</div>
+                <div>28,221</div>
+                <div class="track__time_mobile">3:41</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>15</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_4.png" alt="singer_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>Otilia</div>
+                  <div>Bilionera</div>
+                </div>
+                <div>Otilia</div>
+                <div>Bilionera</div>
+                <div>21,528</div>
+                <div class="track__time_mobile">2:57</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>16</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_5.png" alt="Ed_Sheeran_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I Don’t Care</div>
+                  <div>Ed Sheeran & Bieber's</div>
+                </div>
+                <div>I Don’t Care</div>
+                <div>Ed Sheeran & Bieber's</div>
+                <div>20,439</div>
+                <div class="track__time_mobile">3:15</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>17</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_5.png" alt="Ed_Sheeran_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I Don’t Care</div>
+                  <div>Ed Sheeran & Bieber's</div>
+                </div>
+                <div>I Don’t Care</div>
+                <div>Ed Sheeran & Bieber's</div>
+                <div>20,439</div>
+                <div class="track__time_mobile">3:15</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>18</span>
+                  <img class="track__image_mobil" src="./assets/img/Singer.png" alt="Lil_Nas_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>Old Town Road</div>
+                  <div>Lil Nas</div>
+                </div>
+                <div>Old Town Road</div>
+                <div>Lil Nas</div>
+                <div>39,566</div>
+                <div class="track__time_mobile">4:21</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>19</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_2.png" alt="DDY_Nunes_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>Kamelia</div>
+                  <div>DDY Nunes</div>
+                </div>
+                <div>Kamelia</div>
+                <div>DDY Nunes</div>
+                <div>32,420</div>
+                <div class="track__time_mobile">3:30</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>20</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_3.png" alt="Faydee_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I need Your love</div>
+                  <div>Faydee</div>
+                </div>
+                <div>I need Your love</div>
+                <div>Faydee</div>
+                <div>28,221</div>
+                <div class="track__time_mobile">3:41</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>21</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_4.png" alt="singer_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>Otilia</div>
+                  <div>Bilionera</div>
+                </div>
+                <div>Otilia</div>
+                <div>Bilionera</div>
+                <div>21,528</div>
+                <div class="track__time_mobile">2:57</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>22</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_5.png" alt="Ed_Sheeran_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I Don’t Care</div>
+                  <div>Ed Sheeran & Bieber's</div>
+                </div>
+                <div>I Don’t Care</div>
+                <div>Ed Sheeran & Bieber's</div>
+                <div>20,439</div>
+                <div class="track__time_mobile">3:15</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>23</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_5.png" alt="Ed_Sheeran_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I Don’t Care</div>
+                  <div>Ed Sheeran & Bieber's</div>
+                </div>
+                <div>I Don’t Care</div>
+                <div>Ed Sheeran & Bieber's</div>
+                <div>20,439</div>
+                <div class="track__time_mobile">3:15</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>24</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_5.png" alt="Ed_Sheeran_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I Don’t Care</div>
+                  <div>Ed Sheeran & Bieber's</div>
+                </div>
+                <div>I Don’t Care</div>
+                <div>Ed Sheeran & Bieber's</div>
+                <div>20,439</div>
+                <div class="track__time_mobile">3:15</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>24</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_5.png" alt="Ed_Sheeran_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I Don’t Care</div>
+                  <div>Ed Sheeran & Bieber's</div>
+                </div>
+                <div>I Don’t Care</div>
+                <div>Ed Sheeran & Bieber's</div>
+                <div>20,439</div>
+                <div class="track__time_mobile">3:15</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>26</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_5.png" alt="Ed_Sheeran_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I Don’t Care</div>
+                  <div>Ed Sheeran & Bieber's</div>
+                </div>
+                <div>I Don’t Care</div>
+                <div>Ed Sheeran & Bieber's</div>
+                <div>20,439</div>
+                <div class="track__time_mobile">3:15</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>27</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_5.png" alt="Ed_Sheeran_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I Don’t Care</div>
+                  <div>Ed Sheeran & Bieber's</div>
+                </div>
+                <div>I Don’t Care</div>
+                <div>Ed Sheeran & Bieber's</div>
+                <div>20,439</div>
+                <div class="track__time_mobile">3:15</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>28</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_5.png" alt="Ed_Sheeran_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I Don’t Care</div>
+                  <div>Ed Sheeran & Bieber's</div>
+                </div>
+                <div>I Don’t Care</div>
+                <div>Ed Sheeran & Bieber's</div>
+                <div>20,439</div>
+                <div class="track__time_mobile">3:15</div>
+                <div>
+                  <img src="./assets/icons/download.svg" alt="download" />
+                </div>
+                <div>
+                  <img src="./assets/icons/share.svg" alt="share" />
+                </div>
+                <div>
+                  <img src="./assets/icons/dots.svg" alt="dots" />
+                </div>
+              </div>
+              <div class="track">
+                <div>
+                  <span>29</span>
+                  <img class="track__image_mobil" src="./assets/img/Rectangle_5.png" alt="Ed_Sheeran_img" />
+                </div>
+                <div>
+                  <img src="./assets/icons/favourite.svg" alt="like" />
+                </div>
+                <div class="track__singer_mobile">
+                  <div>I Don’t Care</div>
+                  <div>Ed Sheeran & Bieber's</div>
+                </div>
+                <div>I Don’t Care</div>
                 <div>Ed Sheeran & Bieber's</div>
                 <div>20,439</div>
                 <div class="track__time_mobile">3:15</div>
@@ -574,7 +1073,39 @@
               </div>
           </div>
         </section>
-      </main>
-    </div>
+          <div class="footer_player">
+            <ul class="icons_player">
+              <li>
+                <img class="icon_loading" src="./assets/icons_footer_player/Loading.svg" alt="Loading" />
+              </li>
+              <li>
+                <img class="icon_options" src="./assets/icons_footer_player/Options.svg" alt="Options">
+              </li>
+              <li>
+                <img class="icon_left" src="./assets/icons_footer_player/Backward_left.svg" alt="Backward_left">
+              </li>
+              <li>
+                <img class="icon_eclipse" src="./assets/icons_footer_player/Ellipse_1.png" alt="Ellipse_1">
+              </li>
+              <li>
+                <img class="icon_right" src="./assets/icons_footer_player/Backward_right.svg" alt="Backward_right">
+              </li>
+              <li>
+                <img class="icon_time_start" src="./assets/icons_footer_player/02_54.png" alt="02_54">
+              </li>
+              <li>
+                <img class="icon_line" src="./assets/icons_footer_player/line-white.png" alt="line-white">
+              </li>
+              <li> <img class="icon_time_end" src="./assets/icons_footer_player/03_29.png" alt="03_29"></li>
+              <li>
+                <img class="icon_time_louder" src="./assets/icons_footer_player/Louder.svg" alt="Louder">
+              </li>
+              <li>
+                <img class="icon_window" src="./assets/icons_footer_player/Window.svg" alt="Window">
+              </li>
+          </div>
+        </div>
+      </div>
+     </div>
   </body>
 </html>

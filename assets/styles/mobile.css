@@ -1,27 +1,29 @@
-@media (max-widht: 320px) {
-  .menu,
-  .header,
+/* @media (max-widht: 900px) */
+ {
+  /*  .menu,
+  .header
   .tracks__header,
-  .track > div {
+  .track div {
     display: none;
-  }
+  } */
 
-  .content {
+  /*   .content {
+    width: 900px;
     margin: 0;
-  }
+  } */
 
-  .track__singer_mobile,
+  /* .track__singer_mobile,
   .track__img_mobil {
     display: block;
-  }
+  } */
 
-  .track__singer_mobile,
+  /* .track__singer_mobile,
   .track__img_mobil,
   .track__time_mobile {
     display: block !important;
-  }
+  } */
 
-  .track__img_mobil > span {
+  /*  .track__img_mobil > span {
     display: none;
-  }
+  } */
 }

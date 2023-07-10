@@ -1,14 +1,36 @@
 .menu {
+  margin-left: auto;
   width: 170px;
   position: fixed;
-  left: 0;
-  border: 1px solid #eeeeee;
+  left: auto;
+  border-right: 1px solid #eeeeee;
   background: #ffffff;
   height: 100vh;
 }
 
 .menu_wrapper {
   padding: 24px;
+}
+
+h3.Playlist:after {
+  content: url(/assets/icons/plus.svg);
+  margin: 0 0 0 70px;
+}
+
+.Playlist {
+  cursor: pointer;
+}
+
+.Playlist:hover {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu_navigation > ul > li {
+  cursor: pointer;
+}
+
+.menu_navigation > ul > li:hover {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
 .menu_navigation {
@@ -69,4 +91,61 @@
 .menu_singer_img {
   width: 40px;
   height: 40px;
+}
+
+.footer_player {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.icons_player {
+  display: flex;
+  align-items: center;
+  background: #0f1e36;
+}
+
+.icon_loading {
+  padding: 24px 0 24px 23px;
+}
+
+.icon_options {
+  padding: 0 0 0 31px;
+}
+
+.icon_left {
+  padding: 0 0 0 56px;
+}
+
+.icon_eclipse {
+  padding: 0 0 0 23px;
+}
+
+.icon_right {
+  padding: 0 0 0 23px;
+}
+
+.icon_time_start {
+  padding: 0 0 0 43px;
+}
+
+.icon_line {
+  padding: 0 0 0 11px;
+}
+
+.icon_line {
+  margin: 0 0 2px 0;
+}
+
+.icon_time_end {
+  padding: 0 0 0 11px;
+}
+
+.icon_time_louder {
+  padding: 0 0 0 62px;
+}
+
+.icon_window {
+  padding: 0 31px 0 43px;
 }
